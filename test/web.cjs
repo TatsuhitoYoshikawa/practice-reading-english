@@ -169,6 +169,62 @@ const tests = {
     assert.match(items[1], /庭/);
   },
 
+  async 'vocabulary test shows words at random, reveals the meaning and asks whether to delete'({ page, url }) {
+    const vocab = [
+      { w: 'garden', l: 'garden', m: '庭', s: 'It was a large lovely garden.', src: 'The Selfish Giant', t: 1 },
+      { w: 'ran', l: 'run', m: '走った', s: 'The children ran away.', src: 'The Selfish Giant', t: 2 },
+      { w: 'listen', l: 'listen', m: '耳を傾ける', s: 'They stopped to listen.', src: 'The Selfish Giant', t: 3 },
+    ];
+    await page.goto(url);
+    await page.evaluate((v) => localStorage.setItem('bilingual-reader:v1', JSON.stringify({ vocab: v })), vocab);
+    await page.reload();
+    await page.goto(`${url}#/vocab`);
+    await page.click('#quiz-start');
+    await page.waitForSelector('#quiz-yes');
+
+    const seen = [];
+    const answers = ['#quiz-yes', '#quiz-no', '#quiz-yes'];
+    const choices = ['#quiz-delete', '#quiz-keep', '#quiz-keep'];
+    for (let n = 0; n < vocab.length; n++) {
+      assert.equal(await page.textContent('#quiz-progress'), `${n + 1} / 3`);
+      const shown = await page.locator('#quiz-word b').textContent();
+      const v = vocab.find((x) => x.w === shown);
+      assert.ok(v, `${shown} is in the vocabulary`);
+      seen.push(shown);
+      // 答える前は意味も削除の確認も出さない
+      assert.equal(await page.locator('#quiz-meaning, #quiz-delete').count(), 0);
+      await page.click(answers[n]);
+      assert.equal(await page.textContent('#quiz-meaning'), v.m);
+      assert.match(await page.textContent('.quiz'), /単語帳から削除しますか/);
+      await page.click(choices[n]);
+    }
+    assert.deepEqual([...seen].sort(), vocab.map((v) => v.w).sort(), 'every word is asked once');
+    assert.match(await page.textContent('#quiz-done'), /3語中 2語を覚えていました。1語を単語帳から削除しました。/);
+
+    // 最初に出た単語だけが削除され、再読み込みしても残らない
+    await page.reload();
+    await page.goto(`${url}#/vocab`);
+    await page.waitForSelector('.vocab li');
+    const left = await page.locator('.vocab .vw b').allTextContents();
+    assert.deepEqual(left.sort(), seen.slice(1).sort());
+
+    // 出る順番はランダム（何度か始め直すと、最初の単語が変わる）
+    const firsts = new Set();
+    for (let k = 0; k < 20 && firsts.size < 2; k++) {
+      await page.goto(`${url}#/vocab`);
+      await page.click('#quiz-start');
+      firsts.add(await page.locator('#quiz-word b').textContent());
+    }
+    assert.equal(firsts.size, 2);
+  },
+
+  async 'vocabulary test with an empty vocabulary'({ page, url }) {
+    await page.goto(`${url}#/vocab`);
+    assert.equal(await page.locator('#quiz-start').count(), 0);
+    await page.goto(`${url}#/quiz`);
+    assert.match(await page.textContent('#quiz-empty'), /単語帳に単語がありません/);
+  },
+
   'inflected forms are listed with existing base forms'() {
     const lemmas = readJson('texts/lemmas.json');
     for (const [form, base] of Object.entries(lemmas)) {

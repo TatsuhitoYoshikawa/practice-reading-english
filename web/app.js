@@ -147,6 +147,7 @@ async function route() {
   try {
     if (page === 'read' && id) view = await readerView(decodeURIComponent(id));
     else if (page === 'vocab') view = vocabView();
+    else if (page === 'quiz') view = quizView();
     else view = await homeView();
   } catch (err) {
     view = { nodes: [h('p', { class: 'error' }, `読み込みに失敗しました：${err.message}`)] };
@@ -478,10 +479,95 @@ function vocabView() {
     nodes: [
       h('h2', {}, `単語帳（${state.vocab.length}語）`),
       items.length
+        ? h('a', { href: '#/quiz', class: 'quiz-start', id: 'quiz-start' }, '単語テストを始める')
+        : null,
+      items.length
         ? h('ul', { class: 'vocab' }, items)
         : h('p', { class: 'sub' }, '本文の単語をタップして意味を表示し、もう一度タップすると登録できます。'),
     ],
   };
+}
+
+// ---------------------------------------------------------------------------
+// 単語テスト：単語帳の単語をランダムな順に 1 語ずつ出す。
+// 「覚えていますか？」に はい／いいえ で答えると意味が出て、単語帳から削除するかを聞く
+// ---------------------------------------------------------------------------
+
+function shuffle(list) {
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [list[i], list[j]] = [list[j], list[i]];
+  }
+  return list;
+}
+
+function quizView() {
+  const queue = shuffle([...state.vocab]);
+  if (!queue.length) {
+    return {
+      nodes: [
+        h('h2', {}, '単語テスト'),
+        h('p', { class: 'sub', id: 'quiz-empty' }, '単語帳に単語がありません。本文の単語を 2 回タップすると登録できます。'),
+        h('a', { href: '#/vocab' }, '単語帳へ戻る'),
+      ],
+    };
+  }
+  let i = 0;
+  let known = 0;
+  let deleted = 0;
+  const progress = h('p', { class: 'sub', id: 'quiz-progress' });
+  const card = h('div', { class: 'quiz' });
+  const word = (v) => h('div', { class: 'quiz-word', id: 'quiz-word' },
+    h('b', { lang: 'en' }, v.w),
+    v.l && v.l !== v.w ? h('small', { lang: 'en' }, `（${v.l}）`) : null);
+  const buttons = (...list) => h('div', { class: 'quiz-buttons' }, list);
+  const button = (id, label, onclick) => h('button', { type: 'button', id, onclick }, label);
+
+  const ask = () => {
+    const v = queue[i];
+    progress.textContent = `${i + 1} / ${queue.length}`;
+    card.replaceChildren(
+      word(v),
+      h('p', { class: 'quiz-q' }, 'この単語の意味を覚えていますか？'),
+      buttons(
+        button('quiz-yes', 'はい', () => answer(v, true)),
+        button('quiz-no', 'いいえ', () => answer(v, false))));
+  };
+
+  const answer = (v, ok) => {
+    if (ok) known++;
+    card.replaceChildren(
+      word(v),
+      h('p', { class: `quiz-answer ${ok ? 'yes' : 'no'}`, id: 'quiz-answer' }, ok ? 'はい（覚えていた）' : 'いいえ（覚えていなかった）'),
+      h('p', { class: 'quiz-meaning', id: 'quiz-meaning' }, v.m || '（この単語の訳は未登録です）'),
+      v.s ? h('p', { class: 'vs', lang: 'en' }, v.s) : null,
+      h('p', { class: 'quiz-q' }, 'この単語を単語帳から削除しますか？'),
+      buttons(
+        button('quiz-delete', '削除する', () => {
+          state.vocab = state.vocab.filter((x) => x !== v);
+          save();
+          deleted++;
+          next();
+        }),
+        button('quiz-keep', '残す', next)));
+  };
+
+  const next = () => {
+    i++;
+    if (i < queue.length) return ask();
+    progress.textContent = `${queue.length} / ${queue.length}`;
+    card.replaceChildren(
+      h('p', { class: 'quiz-done', id: 'quiz-done' },
+        `${queue.length}語中 ${known}語を覚えていました。`,
+        deleted ? h('br') : null,
+        deleted ? `${deleted}語を単語帳から削除しました。` : null),
+      buttons(
+        state.vocab.length ? button('quiz-again', 'もう一度', route) : null,
+        h('a', { href: '#/vocab', class: 'quiz-back' }, '単語帳へ戻る')));
+  };
+
+  ask();
+  return { nodes: [h('h2', {}, '単語テスト'), progress, card] };
 }
 
 // ---------------------------------------------------------------------------
