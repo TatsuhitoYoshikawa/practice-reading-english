@@ -2,7 +2,7 @@
 //
 //   npm test
 //
-// Playwright が必要（npm install && npx playwright install chromium）。
+// Playwright が必要（npm ci && npx playwright install chromium）。
 
 const fs = require('node:fs');
 const path = require('node:path');
@@ -476,7 +476,8 @@ const tests = {
 (async () => {
   const server = await serve();
   const url = `http://127.0.0.1:${server.address().port}/`;
-  const browser = await chromium.launch();
+  // CHROMIUM_PATH があれば、npx playwright install で入れたものの代わりにそのブラウザを使う
+  const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || undefined });
   let failed = 0;
   for (const [name, fn] of Object.entries(tests)) {
     const context = await browser.newContext({
