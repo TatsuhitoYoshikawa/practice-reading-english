@@ -174,6 +174,46 @@ h2 { font-size: 1.1rem; margin: 1.5em 0 0.5em; }
 .vs { margin: 4px 0 0; color: var(--sub); font-size: 0.85rem; }
 .del { position: absolute; top: 12px; right: 0; font-size: 0.8rem; }
 
+/* 単語テスト */
+.quiz-start {
+  display: block;
+  margin: 8px 0 4px;
+  padding: 10px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+}
+.quiz { padding: 24px 0; }
+.quiz-word { text-align: center; }
+.quiz-word b { font-size: 2rem; overflow-wrap: anywhere; }
+.quiz-word small { display: block; color: var(--sub); font-size: 0.9rem; }
+.quiz-q { margin: 24px 0 8px; text-align: center; font-weight: 600; }
+.quiz-answer { margin: 16px 0 0; text-align: center; font-size: 0.85rem; font-weight: 700; }
+.quiz-answer.yes { color: var(--read); }
+.quiz-answer.no { color: #dc2626; }
+.quiz-meaning { margin: 8px 0; padding: 12px; border-radius: 8px; background: var(--ja-bg); font-size: 1.15rem; text-align: center; }
+.quiz .vs { text-align: center; }
+.quiz-done { text-align: center; }
+.quiz-buttons { display: flex; gap: 8px; }
+.quiz-buttons button, .quiz-buttons a {
+  flex: 1;
+  min-height: 48px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: transparent;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.quiz-buttons a { display: flex; align-items: center; justify-content: center; }
+#quiz-yes { border-color: var(--read); color: var(--read); }
+#quiz-no { border-color: #dc2626; color: #dc2626; }
+#quiz-delete { border-color: #dc2626; color: #dc2626; }
+
 /* 長押し後のお知らせ */
 #toast {
   position: fixed;
