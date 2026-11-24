@@ -157,13 +157,21 @@ python3 -m http.server -d web 8000
 
 ### 自動テスト
 
-Node.js 18 以降で次を実行します。
+Node.js 26 以降（`.node-version` に記載）で次を実行します。
 
 ```sh
-npm install
+npm ci                            # package-lock.json に固定した版をそのまま入れる
 npx playwright install chromium
 npm test
 ```
+
+テスト用の Playwright は `package.json` で版を固定し、`package-lock.json` で中身（ハッシュ）まで固定しています。`.npmrc` で次のように設定しています。
+
+- `ignore-scripts=true`：インストール時にパッケージのスクリプトを実行しない
+- `engine-strict=true`：Node.js が古いとインストールを止める
+- `min-release-age=7`：公開から 7 日たっていない版は入れない（乗っ取られて公開された版は、たいてい数日以内に見つかって取り下げられるため）
+
+すでに入っている Chromium を使いたいときは、`CHROMIUM_PATH=/path/to/chrome npm test` のように指定できます。
 
 スマホと同じ画面サイズのブラウザで実際に操作し、次のことを確認します。
 
@@ -191,6 +199,7 @@ npm test
 - **Content Security Policy**：自分のサイト以外からのスクリプト・スタイル・画像の読み込みと、インラインスクリプトを禁止しています。Render では同じ内容を HTTP ヘッダーでも送り、他のサイトに埋め込まれること（`frame-ancestors 'none'`）も禁止しています。
 - **その他のヘッダー**：`X-Content-Type-Options: nosniff`、`Referrer-Policy: no-referrer`、カメラ・マイク・位置情報などを使わせない `Permissions-Policy`、HTTPS を強制する `Strict-Transport-Security` を付けています（`render.yaml`）。自動テストでも同じヘッダーを付けて動作を確認しています。
 - **XSS 対策**：本文や単語帳の表示はすべて `textContent` 相当で行い、`innerHTML` は使いません。
+- **依存パッケージ**：公開するアプリ（`web/`）は外部のライブラリを一切使いません。開発用に使うのはテスト用の Playwright だけで、版とハッシュを固定し、インストール時のスクリプト実行を止めています（上の「自動テスト」を参照）。
 - **秘密の情報がない**：API キーなどは存在しないので、公開しても漏れるものがありません。
 
 ---
@@ -214,6 +223,8 @@ web/                        ← 公開するのはこのフォルダだけ
     lemmas.json             活用形 → 原形の対応表（単語の種類を数えるため）
     <作品ID>.json           作品ごとの本文・和訳・語義（6 作品）
 test/web.cjs                ウェブアプリの自動テスト
+package.json, package-lock.json  テスト用の Playwright（版を固定）
+.npmrc, .node-version       npm の安全設定と Node.js のバージョン
 ```
 
 ### 作品データの形式
