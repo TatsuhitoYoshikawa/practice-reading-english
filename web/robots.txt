@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bilingual-reader.onrender.com/sitemap.xml
+Sitemap: https://bilingual-reader-dw8r.onrender.com/sitemap.xml
