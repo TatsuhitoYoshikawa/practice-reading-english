@@ -1,0 +1,836 @@
+{
+ "id": "three-little-pigs",
+ "level": "A2",
+ "title": "The Story of the Three Little Pigs",
+ "titleJa": "三びきの子ぶた",
+ "author": "Joseph Jacobs",
+ "year": 1890,
+ "source": "Project Gutenberg eBook #7439 “English Fairy Tales”",
+ "paragraphs": [
+  {
+   "en": "Once upon a time when pigs spoke rhyme And monkeys chewed tobacco, And hens took snuff to make them tough, And ducks went quack, quack, quack, O!",
+   "ja": "むかしむかし、ぶたが韻をふんでしゃべり、さるがかみたばこをかみ、めんどりがたくましくなろうと、かぎたばこをかぎ、あひるがガア、ガア、ガアと鳴いていたころのこと、おお！",
+   "g": {
+    "once": "かつて（once upon a time で むかしむかし）",
+    "upon": "（once upon a time で）むかしむかし",
+    "time": "時（once upon a time で むかしむかし）",
+    "when": "〜したころ",
+    "pigs": "ぶたたち（pig の複数形）",
+    "spoke": "話した（speak の過去形。spoke rhyme で 韻をふんでしゃべった）",
+    "rhyme": "韻・韻をふんだことば（詩）",
+    "monkeys": "さるたち（monkey の複数形）",
+    "chewed": "かんだ（chew の過去形）",
+    "tobacco": "たばこ（ここでは かみたばこ）",
+    "hens": "めんどりたち（hen の複数形）",
+    "took": "（take snuff で）かぎたばこをかいだ（take の過去形）",
+    "snuff": "かぎたばこ（鼻から吸う粉のたばこ）",
+    "make": "〜にする（make them tough で 自分たちを強くする）",
+    "them": "彼女たち自身を（めんどりたち）",
+    "tough": "たくましい・強い",
+    "ducks": "あひるたち（duck の複数形）",
+    "went": "（went quack で）ガアと鳴いた（go の過去形。go は「〜という音を出す」）",
+    "quack": "ガア（あひるの鳴き声）",
+    "o": "おお（詩の終わりの間投詞）"
+   }
+  },
+  {
+   "en": "There was an old sow with three little pigs, and as she had not enough to keep them, she sent them out to seek their fortune. The first that went off met a man with a bundle of straw, and said to him:",
+   "ja": "三びきの子ぶたをつれた、年とった母ぶたがいました。母ぶたには子ぶたたちを養うだけのものがなかったので、子ぶたたちを、自分の力で運をつかむようにと、世の中へ送り出しました。最初に出かけていった子ぶたは、わらの束を持った男の人に会って、こう言いました。",
+   "g": {
+    "there": "（there was で）〜がいた",
+    "an": "ひとつの・一ぴきの（冠詞）",
+    "old": "年とった",
+    "sow": "（大人の）めすぶた・母ぶた",
+    "three": "3つの・3びきの",
+    "pigs": "ぶた（pig の複数形。little pigs で 子ぶたたち）",
+    "as": "〜なので",
+    "she": "彼女は（母ぶたを指す）",
+    "had": "持っていた（have の過去形。had not enough で 十分なものがなかった）",
+    "enough": "十分なもの（keep them するのに足りるだけのもの）",
+    "keep": "養う・育てる",
+    "sent": "送り出した（send の過去形。send out で 送り出す）",
+    "out": "外へ（send out で 送り出す）",
+    "seek": "さがし求める（seek one's fortune で 運だめしに出る・一旗あげる）",
+    "fortune": "運・幸運・財産（seek one's fortune で 運だめしに出る）",
+    "first": "最初のもの（ここでは一ぴきめの子ぶた）",
+    "that": "（関係代名詞）〜した（the first that went off で 最初に出かけた子ぶた）",
+    "went": "行った（go の過去形。go off で 出かける）",
+    "off": "離れて（go off で 出かける）",
+    "met": "会った（meet の過去形）",
+    "man": "男の人",
+    "bundle": "束",
+    "straw": "わら",
+    "said": "言った（say の過去形）",
+    "him": "彼に（男の人）"
+   }
+  },
+  {
+   "en": "\"Please, man, give me that straw to build me a house.\"",
+   "ja": "「おじさん、お願いです。ぼくの家をたてたいので、そのわらをください。」",
+   "g": {
+    "please": "お願いです・どうか",
+    "man": "おじさん（男の人への呼びかけ）",
+    "give": "与える・くれる（give me で 私にください）",
+    "me": "私に・私のために（give me で 私にください、build me a house で 自分の家をたてる）",
+    "build": "建てる",
+    "house": "家",
+    "that": "その・あの",
+    "straw": "わら"
+   }
+  },
+  {
+   "en": "Which the man did, and the little pig built a house with it. Presently came along a wolf, and knocked at the door, and said:",
+   "ja": "男の人がそのとおりにしてやると、子ぶたはそのわらで家をたてました。まもなく、一ぴきのオオカミがやってきて、戸をたたいて言いました。",
+   "g": {
+    "which": "（前の文を受けて）そのこと（Which the man did で 男の人はそのとおりにした）",
+    "man": "男の人",
+    "did": "した（do の過去形。ここでは「わらをあげた」こと）",
+    "pig": "ぶた（little pig で 子ぶた）",
+    "built": "建てた（build の過去形）",
+    "house": "家",
+    "it": "それ（わら）",
+    "presently": "まもなく・やがて",
+    "came": "来た（come の過去形。came along で やってきた）",
+    "along": "（come along で）やってくる",
+    "wolf": "オオカミ",
+    "knocked": "ノックした・たたいた（knock の過去形。knock at the door で 戸をたたく）",
+    "door": "戸・ドア"
+   }
+  },
+  {
+   "en": "\"Little pig, little pig, let me come in.\"",
+   "ja": "「子ぶたくん、子ぶたくん、中に入れておくれ。」",
+   "g": {
+    "little": "小さな（little pig で 子ぶた）",
+    "pig": "ぶた（little pig で 子ぶた。ここでは呼びかけ）",
+    "let": "〜させる（let me come in で 私を中に入れて）",
+    "me": "私を（オオカミ自身）",
+    "come": "来る（come in で 中に入る）",
+    "in": "中へ"
+   }
+  },
+  {
+   "en": "To which the pig answered:",
+   "ja": "それに子ぶたは答えました。",
+   "g": {
+    "which": "（関係代名詞）それ（To which で それに対して）",
+    "pig": "ぶた（ここでは子ぶた）",
+    "answered": "答えた（answer の過去形）"
+   }
+  },
+  {
+   "en": "\"No, no, by the hair of my chiny chin chin.\"",
+   "ja": "「いやだ、いやだ。ぼくのちっちゃなあごのひげにかけて！」",
+   "g": {
+    "no": "いいえ・いやだ",
+    "by": "〜にかけて（誓いのことば）",
+    "hair": "毛・ひげ",
+    "my": "ぼくの",
+    "chiny": "あごの（chin に -y をつけた幼児語・言葉遊び。chiny chin chin で ちっちゃなあご）",
+    "chin": "あご（chiny chin chin で ちっちゃなあご。くり返しの言葉遊び）"
+   }
+  },
+  {
+   "en": "The wolf then answered to that:",
+   "ja": "するとオオカミは、それにこう答えました。",
+   "g": {
+    "wolf": "オオカミ",
+    "then": "すると・そこで",
+    "answered": "答えた（answer の過去形。answer to で 〜に答える）",
+    "that": "それ（子ぶたのことば）"
+   }
+  },
+  {
+   "en": "\"Then I'll huff, and I'll puff, and I'll blow your house in.\"",
+   "ja": "「それなら、ふうっと吹いて、ぷうっと吹いて、おまえの家を吹きたおしてやる。」",
+   "g": {
+    "then": "それなら・それじゃあ",
+    "i'll": "おれは〜してやる（I will の短縮形）",
+    "huff": "ふうっと息を吹く",
+    "puff": "ぷうっと息を吹く",
+    "blow": "吹く（blow ... in で 吹いて押したおす）",
+    "your": "おまえの",
+    "house": "家",
+    "in": "（blow ... in で）吹いて内側へ押したおす"
+   }
+  },
+  {
+   "en": "So he huffed, and he puffed, and he blew his house in, and ate up the little pig.",
+   "ja": "そこでオオカミは、ふうっと吹いて、ぷうっと吹いて、子ぶたの家を吹きたおし、子ぶたを食べてしまいました。",
+   "g": {
+    "so": "そこで・それで",
+    "he": "彼は（オオカミ）",
+    "huffed": "ふうっと息を吹いた（huff の過去形）",
+    "puffed": "ぷうっと息を吹いた（puff の過去形）",
+    "blew": "吹いた（blow の過去形。blew ... in で 吹きたおした）",
+    "his": "彼の（ここでは子ぶたの）",
+    "house": "家",
+    "in": "（blow ... in で）吹いて押したおす",
+    "ate": "食べた（eat の過去形。ate up で 食べつくした）",
+    "up": "すっかり（eat up で 食べてしまう）",
+    "pig": "ぶた（little pig で 子ぶた）"
+   }
+  },
+  {
+   "en": "The second little pig met a man with a bundle of furze, and said:",
+   "ja": "二ばんめの子ぶたは、ハリエニシダの束を持った男の人に会って、言いました。",
+   "g": {
+    "second": "2番めの",
+    "pig": "ぶた（little pig で 子ぶた）",
+    "met": "会った（meet の過去形）",
+    "man": "男の人",
+    "bundle": "束",
+    "furze": "ハリエニシダ（とげのある低木。たきぎなどに使う）"
+   }
+  },
+  {
+   "en": "\"Please, man, give me that furze to build a house.\"",
+   "ja": "「おじさん、お願いです。家をたてたいので、そのハリエニシダをください。」",
+   "g": {
+    "please": "お願いです・どうか",
+    "man": "おじさん（男の人への呼びかけ）",
+    "give": "与える・くれる（give me で 私にください）",
+    "me": "私に（子ぶた自身）",
+    "build": "建てる",
+    "house": "家",
+    "that": "その・あの",
+    "furze": "ハリエニシダ（とげのある低木）"
+   }
+  },
+  {
+   "en": "Which the man did, and the pig built his house. Then along came the wolf, and said:",
+   "ja": "男の人がそのとおりにしてやると、子ぶたは自分の家をたてました。するとそこへ、あのオオカミがやってきて言いました。",
+   "g": {
+    "which": "（前の文を受けて）そのこと（Which the man did で 男の人はそのとおりにした）",
+    "man": "男の人",
+    "did": "した（do の過去形。ここでは「ハリエニシダをあげた」こと）",
+    "pig": "ぶた（ここでは子ぶた）",
+    "built": "建てた（build の過去形）",
+    "his": "彼の（子ぶた自身の）",
+    "house": "家",
+    "then": "すると・それから",
+    "along": "（come along で）やってくる",
+    "came": "来た（come の過去形。along came the wolf で オオカミがやってきた）",
+    "wolf": "オオカミ（the wolf で さっきのオオカミ）"
+   }
+  },
+  {
+   "en": "\"Little pig, little pig, let me come in.\"",
+   "ja": "「子ぶたくん、子ぶたくん、中に入れておくれ。」",
+   "g": {
+    "little": "小さな（little pig で 子ぶた）",
+    "pig": "ぶた（little pig で 子ぶた。ここでは呼びかけ）",
+    "let": "〜させる（let me come in で 私を中に入れて）",
+    "me": "私を（オオカミ自身）",
+    "come": "来る（come in で 中に入る）",
+    "in": "中へ"
+   }
+  },
+  {
+   "en": "\"No, no, by the hair of my chiny chin chin.\"",
+   "ja": "「いやだ、いやだ。ぼくのちっちゃなあごのひげにかけて！」",
+   "g": {
+    "no": "いいえ・いやだ",
+    "by": "〜にかけて（誓いのことば）",
+    "hair": "毛・ひげ",
+    "my": "ぼくの",
+    "chiny": "あごの（chin に -y をつけた幼児語・言葉遊び。chiny chin chin で ちっちゃなあご）",
+    "chin": "あご（chiny chin chin で ちっちゃなあご。くり返しの言葉遊び）"
+   }
+  },
+  {
+   "en": "\"Then I'll puff, and I'll huff, and I'll blow your house in.\"",
+   "ja": "「それなら、ぷうっと吹いて、ふうっと吹いて、おまえの家を吹きたおしてやる。」",
+   "g": {
+    "then": "それなら・それじゃあ",
+    "i'll": "おれは〜してやる（I will の短縮形）",
+    "huff": "ふうっと息を吹く",
+    "puff": "ぷうっと息を吹く",
+    "blow": "吹く（blow ... in で 吹いて押したおす）",
+    "your": "おまえの",
+    "house": "家",
+    "in": "（blow ... in で）吹いて内側へ押したおす"
+   }
+  },
+  {
+   "en": "So he huffed, and he puffed, and he puffed, and he huffed, and at last he blew the house down, and he ate up the little pig.",
+   "ja": "そこでオオカミは、ふうっと吹いて、ぷうっと吹いて、ぷうっと吹いて、ふうっと吹いて、とうとう家を吹きたおし、子ぶたを食べてしまいました。",
+   "g": {
+    "so": "そこで・それで",
+    "he": "彼は（オオカミ）",
+    "huffed": "ふうっと息を吹いた（huff の過去形）",
+    "puffed": "ぷうっと息を吹いた（puff の過去形）",
+    "last": "最後（at last で とうとう・ついに）",
+    "blew": "吹いた（blow の過去形。blew ... down で 吹きたおした）",
+    "house": "家",
+    "down": "たおれて（blow ... down で 吹きたおす）",
+    "ate": "食べた（eat の過去形。ate up で 食べつくした）",
+    "up": "すっかり（eat up で 食べてしまう）",
+    "pig": "ぶた（little pig で 子ぶた）"
+   }
+  },
+  {
+   "en": "The third little pig met a man with a load of bricks, and said:",
+   "ja": "三ばんめの子ぶたは、れんがをひと荷運んでいる男の人に会って、言いました。",
+   "g": {
+    "third": "3番めの",
+    "pig": "ぶた（little pig で 子ぶた）",
+    "met": "会った（meet の過去形）",
+    "man": "男の人",
+    "load": "（運ぶ）荷・ひと荷分（a load of で ひと荷の〜・たくさんの〜）",
+    "bricks": "れんが（brick の複数形）"
+   }
+  },
+  {
+   "en": "\"Please, man, give me those bricks to build a house with.\"",
+   "ja": "「おじさん、お願いです。家をたてるのに使いたいので、そのれんがをください。」",
+   "g": {
+    "please": "お願いです・どうか",
+    "man": "おじさん（男の人への呼びかけ）",
+    "give": "与える・くれる（give me で 私にください）",
+    "me": "私に（子ぶた自身）",
+    "build": "建てる",
+    "house": "家",
+    "bricks": "れんが（brick の複数形）",
+    "with": "〜で・〜を使って（build a house with で 〜で家をたてる）"
+   }
+  },
+  {
+   "en": "So the man gave him the bricks, and he built his house with them. So the wolf came, as he did to the other little pigs, and said:",
+   "ja": "そこで男の人がれんがをあげると、子ぶたはそれで家をたてました。すると、ほかの子ぶたたちのときと同じように、オオカミがやってきて言いました。",
+   "g": {
+    "so": "そこで／すると",
+    "man": "男の人",
+    "gave": "与えた・あげた（give の過去形）",
+    "him": "彼に（子ぶた）",
+    "bricks": "れんが（brick の複数形）",
+    "he": "彼は（1つめは子ぶた、2つめはオオカミ）",
+    "built": "建てた（build の過去形）",
+    "his": "彼の（子ぶた自身の）",
+    "house": "家",
+    "them": "それら（れんが）",
+    "wolf": "オオカミ",
+    "came": "来た（come の過去形）",
+    "as": "〜と同じように",
+    "did": "した（do の過去形。as he did to で 〜にしたのと同じように）",
+    "other": "ほかの",
+    "pigs": "ぶた（pig の複数形。little pigs で 子ぶたたち）"
+   }
+  },
+  {
+   "en": "\"Little pig, little pig, let me come in.\"",
+   "ja": "「子ぶたくん、子ぶたくん、中に入れておくれ。」",
+   "g": {
+    "little": "小さな（little pig で 子ぶた）",
+    "pig": "ぶた（little pig で 子ぶた。ここでは呼びかけ）",
+    "let": "〜させる（let me come in で 私を中に入れて）",
+    "me": "私を（オオカミ自身）",
+    "come": "来る（come in で 中に入る）",
+    "in": "中へ"
+   }
+  },
+  {
+   "en": "\"No, no, by the hair of my chiny chin chin.\"",
+   "ja": "「いやだ、いやだ。ぼくのちっちゃなあごのひげにかけて！」",
+   "g": {
+    "no": "いいえ・いやだ",
+    "by": "〜にかけて（誓いのことば）",
+    "hair": "毛・ひげ",
+    "my": "ぼくの",
+    "chiny": "あごの（chin に -y をつけた幼児語・言葉遊び。chiny chin chin で ちっちゃなあご）",
+    "chin": "あご（chiny chin chin で ちっちゃなあご。くり返しの言葉遊び）"
+   }
+  },
+  {
+   "en": "\"Then I'll huff, and I'll puff, and I'll blow your house in.\"",
+   "ja": "「それなら、ふうっと吹いて、ぷうっと吹いて、おまえの家を吹きたおしてやる。」",
+   "g": {
+    "then": "それなら・それじゃあ",
+    "i'll": "おれは〜してやる（I will の短縮形）",
+    "huff": "ふうっと息を吹く",
+    "puff": "ぷうっと息を吹く",
+    "blow": "吹く（blow ... in で 吹いて押したおす）",
+    "your": "おまえの",
+    "house": "家",
+    "in": "（blow ... in で）吹いて内側へ押したおす"
+   }
+  },
+  {
+   "en": "Well, he huffed, and he puffed, and he huffed and he puffed, and he puffed and huffed; but he could not get the house down. When he found that he could not, with all his huffing and puffing, blow the house down, he said:",
+   "ja": "さて、オオカミは、ふうっと吹いて、ぷうっと吹いて、ふうっと吹いて、ぷうっと吹いて、ぷうっと吹いて、ふうっと吹きました。けれども、家をたおすことはできませんでした。いくらふうふう、ぷうぷう吹いても家を吹きたおせないとわかると、オオカミは言いました。",
+   "g": {
+    "well": "さて（話をつなぐことば）",
+    "he": "彼は（オオカミ）",
+    "huffed": "ふうっと息を吹いた（huff の過去形）",
+    "puffed": "ぷうっと息を吹いた（puff の過去形）",
+    "could": "〜できた（can の過去形。could not で できなかった）",
+    "get": "（get ... down で）〜をたおす",
+    "house": "家",
+    "down": "たおれて（get/blow ... down で たおす）",
+    "found": "わかった・気づいた（find の過去形）",
+    "that": "（接続詞）〜ということ",
+    "all": "（with all ... で）〜にもかかわらず・いくら〜しても",
+    "his": "彼の（オオカミの）",
+    "huffing": "ふうっと吹くこと（huff の -ing 形）",
+    "puffing": "ぷうっと吹くこと（puff の -ing 形）",
+    "blow": "吹く（blow ... down で 吹きたおす）",
+    "said": "言った（say の過去形）"
+   }
+  },
+  {
+   "en": "\"Little pig, I know where there is a nice field of turnips.\"",
+   "ja": "「子ぶたくん、いいカブ畑があるところを知っているよ。」",
+   "g": {
+    "pig": "子ぶた（ここでは呼びかけ）",
+    "know": "知っている",
+    "where": "どこに〜か（where there is で 〜があるところ）",
+    "nice": "よい・りっぱな",
+    "field": "畑",
+    "turnips": "カブ（turnip の複数形）",
+    "i": "おれは（オオカミ自身）"
+   }
+  },
+  {
+   "en": "\"Where?\" said the little pig.",
+   "ja": "「どこに？」と子ぶたは言いました。",
+   "g": {
+    "where": "どこに",
+    "pig": "ぶた（little pig で 子ぶた）"
+   }
+  },
+  {
+   "en": "\"Oh, in Mr. Smith's Home-field, and if you will be ready tomorrow morning I will call for you, and we will go together, and get some for dinner.\"",
+   "ja": "「ああ、スミスさんの家のそばの畑さ。あしたの朝、したくができているなら、迎えに行ってやるよ。いっしょに行って、ごはん用にいくつかとってこよう。」",
+   "g": {
+    "oh": "ああ（話しはじめのことば）",
+    "mr": "〜さん（男性の敬称）",
+    "smith's": "スミスの（Smith は人の名前）",
+    "home": "家の（Home-field で 家のそばの畑）",
+    "field": "畑（Home-field で 屋敷のそばの畑）",
+    "if": "もし〜なら",
+    "you": "きみ（子ぶた）",
+    "will": "〜するつもりだ（if you will be ready で したくをしておいてくれるなら）",
+    "ready": "用意ができた",
+    "tomorrow": "あした",
+    "morning": "朝",
+    "call": "（call for で）〜を迎えに行く",
+    "for": "（call for で）〜を迎えに行く／（for dinner で）ごはん用に",
+    "we": "私たちは（オオカミと子ぶた）",
+    "go": "行く",
+    "together": "いっしょに",
+    "get": "手に入れる・とってくる",
+    "some": "いくつか（カブを指す）",
+    "dinner": "ごはん・（一日のおもな）食事",
+    "i": "おれは（オオカミ自身）"
+   }
+  },
+  {
+   "en": "\"Very well,\" said the little pig, \"I will be ready. What time do you mean to go?\"",
+   "ja": "「いいよ」と子ぶたは言いました。「したくしておくよ。何時に行くつもり？」",
+   "g": {
+    "very": "（very well で）よろしい・いいよ",
+    "well": "（very well で）よろしい・いいよ",
+    "pig": "ぶた（little pig で 子ぶた）",
+    "ready": "用意ができた（be ready で したくしておく）",
+    "what": "何の（what time で 何時）",
+    "time": "時刻（what time で 何時）",
+    "mean": "〜するつもりである（mean to で 〜するつもり）",
+    "go": "行く",
+    "i": "ぼくは（子ぶた自身）",
+    "you": "きみ（オオカミ）"
+   }
+  },
+  {
+   "en": "\"Oh, at six o'clock.\"",
+   "ja": "「ああ、六時さ。」",
+   "g": {
+    "oh": "ああ",
+    "six": "6",
+    "o'clock": "〜時（six o'clock で 6時）"
+   }
+  },
+  {
+   "en": "Well, the little pig got up at five, and got the turnips before the wolf came (which he did about six) and who said:",
+   "ja": "さて、子ぶたは五時に起きて、オオカミが来る前にカブをとってきました。オオカミは六時ごろにやってきて、こう言いました。",
+   "g": {
+    "well": "さて（話をつなぐことば）",
+    "pig": "ぶた（little pig で 子ぶた）",
+    "got": "（got up で）起きた／（got the turnips で）カブを手に入れた（get の過去形）",
+    "up": "（get up で）起きる",
+    "five": "5（ここでは5時）",
+    "turnips": "カブ（turnip の複数形）",
+    "before": "〜する前に",
+    "wolf": "オオカミ",
+    "came": "来た（come の過去形）",
+    "which": "（関係代名詞）そのこと（which he did で 来たのは〜だった）",
+    "he": "彼は（オオカミ）",
+    "did": "した（do の過去形。ここでは「来た」こと）",
+    "about": "〜ごろ・およそ",
+    "six": "6（ここでは6時）",
+    "who": "（関係代名詞）その者は（オオカミを指す）"
+   }
+  },
+  {
+   "en": "\"Little Pig, are you ready?\"",
+   "ja": "「子ぶたくん、したくはできたかい？」",
+   "g": {
+    "pig": "子ぶた（ここでは呼びかけ）",
+    "ready": "用意ができた",
+    "you": "きみ（子ぶた）"
+   }
+  },
+  {
+   "en": "The little pig said: \"Ready! I have been and come back again, and got a nice potful for dinner.\"",
+   "ja": "子ぶたは言いました。「したくだって！ ぼくはもう行って、帰ってきたよ。ごはん用に、お鍋いっぱいとってきたんだ。」",
+   "g": {
+    "pig": "ぶた（little pig で 子ぶた）",
+    "ready": "したく（だって）（相手のことばをくり返して）",
+    "have": "（have been and come back で）もう行って帰ってきた（現在完了）",
+    "been": "行った（be の過去分詞。have been で 行ってきた）",
+    "come": "来た（come の過去分詞。come back で 帰ってくる）",
+    "back": "もとへ（come back で 帰ってくる）",
+    "again": "また・もとへ",
+    "got": "手に入れた（get の過去分詞。have ... got で とってきた）",
+    "nice": "たっぷりの・よい",
+    "potful": "鍋いっぱい（の量）",
+    "for": "〜のために・〜用に",
+    "dinner": "ごはん・（一日のおもな）食事",
+    "i": "ぼくは（子ぶた自身）"
+   }
+  },
+  {
+   "en": "The wolf felt very angry at this, but thought that he would be up to the little pig somehow or other, so he said:",
+   "ja": "オオカミはこれにとても腹を立てましたが、なんとかして子ぶたをだしぬいてやろうと考えて、言いました。",
+   "g": {
+    "wolf": "オオカミ",
+    "felt": "感じた（feel の過去形。felt angry で 腹を立てた）",
+    "angry": "怒った・腹を立てた",
+    "at": "〜に（angry at this で これに腹を立てて）",
+    "this": "これ（子ぶたのことば）",
+    "thought": "考えた（think の過去形）",
+    "that": "（接続詞）〜ということ",
+    "he": "彼は（オオカミ）",
+    "would": "〜するだろう・〜してやろう",
+    "be": "（be up to で）〜に負けない・〜をだしぬく",
+    "up": "（be up to で）〜に負けない・〜をだしぬく",
+    "pig": "ぶた（little pig で 子ぶた）",
+    "somehow": "なんとかして（somehow or other で どうにかして）",
+    "other": "（somehow or other で）どうにかして",
+    "so": "それで・そこで",
+    "said": "言った（say の過去形）"
+   }
+  },
+  {
+   "en": "\"Little pig, I know where there is a nice apple-tree.\"",
+   "ja": "「子ぶたくん、いいりんごの木があるところを知っているよ。」",
+   "g": {
+    "pig": "子ぶた（ここでは呼びかけ）",
+    "know": "知っている",
+    "where": "どこに〜か（where there is で 〜があるところ）",
+    "nice": "よい・りっぱな",
+    "apple": "りんご（apple-tree で りんごの木）",
+    "tree": "木（apple-tree で りんごの木）",
+    "i": "おれは（オオカミ自身）"
+   }
+  },
+  {
+   "en": "\"Where?\" said the pig.",
+   "ja": "「どこに？」と子ぶたは言いました。",
+   "g": {
+    "where": "どこに",
+    "pig": "ぶた（ここでは子ぶた）"
+   }
+  },
+  {
+   "en": "\"Down at Merry-garden,\" replied the wolf, \"and if you will not deceive me I will come for you, at five o'clock tomorrow and get some apples.\"",
+   "ja": "「メリーガーデンのほうさ」とオオカミは答えました。「おれをだまさないなら、あしたの五時に迎えに来てやるよ。それでりんごをとりにいこう。」",
+   "g": {
+    "down": "〜のほうに（Down at で 〜のあたりに。話しことばの言い方）",
+    "merry": "メリー（Merry-garden で 地名。「楽しい庭」の意）",
+    "garden": "庭（Merry-garden で メリーガーデン：地名）",
+    "replied": "答えた（reply の過去形）",
+    "wolf": "オオカミ",
+    "if": "もし〜なら",
+    "you": "きみ（子ぶた）",
+    "will": "（if you will not で）〜しないなら",
+    "deceive": "だます・あざむく",
+    "me": "おれを（オオカミ自身）",
+    "i": "おれは（オオカミ自身）",
+    "come": "（come for で）〜を迎えに来る",
+    "for": "（come for で）〜を迎えに来る",
+    "five": "5",
+    "o'clock": "〜時（five o'clock で 5時）",
+    "tomorrow": "あした",
+    "get": "手に入れる・とる",
+    "some": "いくつかの",
+    "apples": "りんご（apple の複数形）"
+   }
+  },
+  {
+   "en": "Well, the little pig bustled up the next morning at four o'clock, and went off for the apples, hoping to get back before the wolf came; but he had further to go, and had to climb the tree, so that just as he was coming down from it, he saw the wolf coming, which, as you may suppose, frightened him very much. When the wolf came up he said:",
+   "ja": "さて、子ぶたはつぎの朝、四時にいそいで起き出して、オオカミが来る前に帰ってこようと、りんごをとりに出かけました。けれども、こんどは前より遠くまで行かなければならないうえに、木にものぼらなければなりませんでした。それで、ちょうど木からおりようとしていたとき、オオカミがやってくるのが見えました。ご想像のとおり、子ぶたはとてもこわくなりました。そばまで来ると、オオカミは言いました。",
+   "g": {
+    "well": "さて（話をつなぐことば）",
+    "pig": "ぶた（little pig で 子ぶた）",
+    "bustled": "せかせか動いた・いそいだ（bustle の過去形。bustle up で いそいで起き出す）",
+    "up": "（bustle up で）いそいで起き出す／（come up で）そばに来る",
+    "next": "つぎの",
+    "morning": "朝",
+    "four": "4",
+    "o'clock": "〜時（four o'clock で 4時）",
+    "went": "行った（go の過去形。go off で 出かける）",
+    "off": "離れて（go off で 出かける）",
+    "for": "〜を求めて（go off for the apples で りんごをとりに出かける）",
+    "apples": "りんご（apple の複数形）",
+    "hoping": "〜したいと願いながら（hope の -ing 形）",
+    "get": "（get back で）帰る",
+    "back": "もとへ（get back で 帰ってくる）",
+    "before": "〜する前に",
+    "wolf": "オオカミ",
+    "came": "来た（come の過去形。came up で そばまで来た）",
+    "he": "彼は（子ぶた。最後の he said の he はオオカミ）",
+    "had": "（had further to go で）もっと遠くまで行かなければならなかった／（had to で）〜しなければならなかった",
+    "further": "もっと遠くへ（far の比較級）",
+    "go": "行く",
+    "climb": "のぼる",
+    "tree": "木",
+    "so": "（so that で）それで・その結果",
+    "just": "ちょうど（just as で ちょうど〜するとき）",
+    "as": "〜するとき（just as で ちょうど〜しているとき）／（as you may suppose で）〜のように",
+    "coming": "来る（come の -ing 形。was coming down で おりようとしていた／saw the wolf coming で オオカミが来るのを見た）",
+    "down": "下へ（come down from で 〜からおりる）",
+    "it": "それ（りんごの木）",
+    "saw": "見た（see の過去形）",
+    "which": "（関係代名詞）そのこと（オオカミが来るのを見たこと）",
+    "may": "〜かもしれない（as you may suppose で ご想像のとおり）",
+    "suppose": "想像する・思う",
+    "frightened": "こわがらせた（frighten の過去形）",
+    "him": "彼を（子ぶた）",
+    "much": "とても（very much で ひじょうに）"
+   }
+  },
+  {
+   "en": "\"Little pig, what! are you here before me? Are they nice apples?\"",
+   "ja": "「子ぶたくん、なんだって！ おれより先に来ていたのか？ そのりんごはうまいかい？」",
+   "g": {
+    "pig": "子ぶた（ここでは呼びかけ）",
+    "what": "なんだって（おどろきの声）",
+    "you": "きみ（子ぶた）",
+    "here": "ここに",
+    "before": "〜より先に",
+    "me": "おれ（オオカミ自身）",
+    "they": "それら（りんご）",
+    "nice": "おいしい・よい",
+    "apples": "りんご（apple の複数形）"
+   }
+  },
+  {
+   "en": "\"Yes, very,\" said the little pig. \"I will throw you down one.\"",
+   "ja": "「うん、とっても」と子ぶたは言いました。「ひとつ投げおろしてあげるよ。」",
+   "g": {
+    "yes": "はい・うん",
+    "very": "とても（ここでは very nice の nice を省略）",
+    "pig": "ぶた（little pig で 子ぶた）",
+    "i": "ぼくは（子ぶた）",
+    "throw": "投げる（throw down で 投げおろす）",
+    "you": "きみに（オオカミ）",
+    "down": "下へ（throw down で 投げおろす）",
+    "one": "ひとつ（りんごを1個）"
+   }
+  },
+  {
+   "en": "And he threw it so far, that, while the wolf was gone to pick it up, the little pig jumped down and ran home. The next day the wolf came again, and said to the little pig:",
+   "ja": "そして子ぶたがりんごをとても遠くへ投げたので、オオカミがそれを拾いに行っているあいだに、子ぶたは木からとびおりて、家へ走って帰りました。つぎの日、オオカミはまたやってきて、子ぶたに言いました。",
+   "g": {
+    "he": "彼は（子ぶた）",
+    "threw": "投げた（throw の過去形）",
+    "it": "それ（りんご）",
+    "so": "（so ... that で）とても〜なので…",
+    "far": "遠くへ",
+    "that": "（so ... that で）〜なので…",
+    "while": "〜しているあいだに",
+    "wolf": "オオカミ",
+    "gone": "行ってしまった（go の過去分詞。was gone to で 〜しに行っていた）",
+    "pick": "（pick up で）拾う",
+    "up": "（pick up で）拾う",
+    "pig": "ぶた（little pig で 子ぶた）",
+    "jumped": "とんだ（jump の過去形。jump down で とびおりる）",
+    "down": "下へ（jump down で とびおりる）",
+    "ran": "走った（run の過去形）",
+    "home": "家へ",
+    "next": "つぎの",
+    "day": "日",
+    "came": "来た（come の過去形）",
+    "said": "言った（say の過去形）"
+   }
+  },
+  {
+   "en": "\"Little pig, there is a fair at Shanklin this afternoon, will you go?\"",
+   "ja": "「子ぶたくん、きょうの午後、シャンクリンで市があるんだ。行かないかい？」",
+   "g": {
+    "pig": "子ぶた（ここでは呼びかけ）",
+    "fair": "市・定期市（品物を売り買いし、見世物などもある集まり）",
+    "shanklin": "シャンクリン（イングランド南部・ワイト島の町の名前）",
+    "this": "この（this afternoon で きょうの午後）",
+    "afternoon": "午後",
+    "will": "（will you ...? で）〜しないかい（さそい）",
+    "you": "きみ（子ぶた）",
+    "go": "行く"
+   }
+  },
+  {
+   "en": "\"Oh yes,\" said the pig, \"I will go; what time shall you be ready?\"",
+   "ja": "「ああ、いいよ」と子ぶたは言いました。「行くよ。きみは何時にしたくができるの？」",
+   "g": {
+    "oh": "ああ",
+    "yes": "はい・いいよ",
+    "pig": "ぶた（ここでは子ぶた）",
+    "i": "ぼくは（子ぶた）",
+    "go": "行く",
+    "what": "何の（what time で 何時）",
+    "time": "時刻（what time で 何時）",
+    "shall": "〜することになる（古い言い方。shall you be ready で きみはしたくができるか）",
+    "you": "きみ（オオカミ）",
+    "ready": "用意ができた"
+   }
+  },
+  {
+   "en": "\"At three,\" said the wolf. So the little pig went off before the time as usual, and got to the fair, and bought a butter-churn, which he was going home with, when he saw the wolf coming. Then he could not tell what to do. So he got into the churn to hide, and by so doing turned it round, and it rolled down the hill with the pig in it, which frightened the wolf so much, that he ran home without going to the fair. He went to the little pig's house, and told him how frightened he had been by a great round thing which came down the hill past him. Then the little pig said:",
+   "ja": "「三時さ」とオオカミは言いました。そこで子ぶたは、いつものように約束の時間より前に出かけて、市に着くと、バターをつくるおけを買いました。それを持って家へ帰ろうとしていたとき、オオカミがやってくるのが見えました。子ぶたは、どうしたらいいのかわかりませんでした。そこで、かくれようとして、おけの中に入りました。すると、そのはずみでおけがころりと回って、子ぶたを中に入れたまま坂をころがり落ちていきました。これにオオカミはひどくおびえて、市には行かずに家へ逃げ帰ってしまいました。それからオオカミは子ぶたの家へ行き、大きな丸いものが坂をころがってきて、自分のそばを通りすぎていったので、どんなにこわかったかを話しました。すると子ぶたは言いました。",
+   "g": {
+    "three": "3（ここでは3時）",
+    "wolf": "オオカミ",
+    "so": "（1つめ・2つめ）そこで／（by so doing で）そうすることで／（so much that で）とても〜なので…",
+    "pig": "ぶた（little pig で 子ぶた）",
+    "went": "行った（go の過去形。go off で 出かける）",
+    "off": "離れて（go off で 出かける）",
+    "before": "〜より前に",
+    "time": "（約束の）時刻",
+    "as": "（as usual で）いつものように",
+    "usual": "いつもの（as usual で いつものように）",
+    "got": "着いた（get の過去形。get to で 〜に着く）／入った（get into で 〜に入る）",
+    "fair": "市・定期市",
+    "bought": "買った（buy の過去形）",
+    "butter": "バター（butter-churn で バターをつくるおけ）",
+    "churn": "かくはんおけ（牛乳をかきまぜてバターをつくる、たるのような入れ物）",
+    "which": "（関係代名詞）それ（1つめはバターおけ、2つめはころがり落ちたこと、3つめは大きな丸いもの）",
+    "he": "彼は（前半は子ぶた、後半の ran home 以降はオオカミ）",
+    "was": "（was going で）〜しようとしていた",
+    "going": "行く（go の -ing 形。was going home with で 〜を持って家へ帰ろうとしていた）",
+    "home": "家へ",
+    "saw": "見た（see の過去形）",
+    "coming": "来る（come の -ing 形。saw the wolf coming で オオカミがやってくるのを見た）",
+    "then": "そのとき・すると",
+    "could": "〜できた（can の過去形。could not tell で わからなかった）",
+    "tell": "わかる・見分ける（can't tell で わからない）",
+    "what": "何を（what to do で どうしたらよいか）",
+    "do": "する",
+    "into": "〜の中へ",
+    "hide": "かくれる",
+    "by": "（by so doing で）そうすることで",
+    "doing": "すること（do の -ing 形。by so doing で そうしたために）",
+    "turned": "回した・まわした（turn の過去形。turn it round で それをくるりと回す）",
+    "it": "それ（バターおけ）",
+    "round": "ぐるりと（turn round で 回転させる）",
+    "rolled": "ころがった（roll の過去形）",
+    "down": "〜を下って",
+    "hill": "丘・坂",
+    "with": "〜を持って（going home with で 〜を持って家へ帰る）／〜を（中に）入れたまま（with the pig in it で 子ぶたを中に入れたまま）",
+    "in": "中に",
+    "frightened": "こわがらせた（frighten の過去形）／（had been frightened で）こわがっていた",
+    "much": "たくさん（so much で ひどく）",
+    "that": "（so much that で）とても〜なので…",
+    "ran": "走った（run の過去形。ran home で 家へ逃げ帰った）",
+    "without": "〜しないで",
+    "pig's": "ぶたの（little pig's house で 子ぶたの家）",
+    "house": "家",
+    "told": "話した（tell の過去形）",
+    "him": "彼に（子ぶた）",
+    "how": "どんなに〜か",
+    "had": "（had been frightened で）こわがっていた（過去完了）",
+    "been": "（had been frightened で）こわがっていた",
+    "great": "大きな",
+    "thing": "もの",
+    "came": "来た（come の過去形。came down the hill で 坂をころがってきた）",
+    "past": "〜のそばを通りすぎて"
+   }
+  },
+  {
+   "en": "\"Hah, I frightened you, then. I had been to the fair and bought a butter-churn, and when I saw you, I got into it, and rolled down the hill.\"",
+   "ja": "「はは、じゃあ、きみをこわがらせたのはぼくだったんだね。ぼくは市へ行って、バターおけを買ってきたところだったんだ。それで、きみが見えたから、おけの中に入って、坂をころがりおりたんだよ。」",
+   "g": {
+    "hah": "はは（得意げな笑い声）",
+    "i": "ぼくは（子ぶた）",
+    "frightened": "こわがらせた（frighten の過去形）",
+    "you": "きみ（オオカミ）",
+    "then": "それじゃあ・つまり",
+    "had": "（had been to で）〜へ行ってきていた（過去完了）",
+    "been": "（have been to で）〜へ行ってきた",
+    "fair": "市・定期市",
+    "bought": "買った（buy の過去形）",
+    "butter": "バター（butter-churn で バターをつくるおけ）",
+    "churn": "かくはんおけ（バターをつくる入れ物）",
+    "saw": "見た（see の過去形）",
+    "got": "入った（get の過去形。get into で 〜に入る）",
+    "it": "それ（バターおけ）",
+    "rolled": "ころがった（roll の過去形）",
+    "down": "〜を下って",
+    "hill": "丘・坂"
+   }
+  },
+  {
+   "en": "Then the wolf was very angry indeed, and declared he would eat up the little pig, and that he would get down the chimney after him. When the little pig saw what he was about, he hung on the pot full of water, and made up a blazing fire, and, just as the wolf was coming down, took off the cover, and in fell the wolf; so the little pig put on the cover again in an instant, boiled him up, and ate him for supper, and lived happy ever afterwards.",
+   "ja": "これにはオオカミも本当にかんかんに怒って、子ぶたを食べてやる、えんとつをおりて子ぶたをつかまえに行ってやる、と言いはなちました。オオカミが何をしようとしているのかわかると、子ぶたは水をいっぱいに入れた鍋を火の上につるし、火をごうごうと燃やしました。そして、ちょうどオオカミがおりてくるときにふたをとると、オオカミはそのまま鍋の中へどぼんと落ちました。子ぶたはすぐにまたふたをして、オオカミをぐつぐつ煮て、夕ごはんに食べてしまいました。それからずっと、子ぶたはしあわせに暮らしました。",
+   "g": {
+    "then": "すると・それで",
+    "wolf": "オオカミ",
+    "angry": "怒った・腹を立てた",
+    "indeed": "本当に・じつに",
+    "declared": "きっぱり言った・宣言した（declare の過去形）",
+    "he": "彼は（1〜3つめ（would eat / would get down / what he was about）はオオカミ、he hung 以降は子ぶた）",
+    "would": "〜してやる（主張・意志。will の過去形）",
+    "eat": "食べる（eat up で 食べてしまう）",
+    "up": "すっかり（eat up で 食べてしまう／boil up で すっかり煮る）",
+    "pig": "ぶた（little pig で 子ぶた）",
+    "that": "（接続詞）〜ということ",
+    "get": "（get down で）おりる",
+    "down": "〜を下って（get down the chimney で えんとつをおりる）／（come down で）おりてくる",
+    "chimney": "えんとつ",
+    "after": "〜を追って",
+    "him": "彼を（1つめは子ぶた、2つめ・3つめはオオカミ）",
+    "saw": "わかった・見てとった（see の過去形）",
+    "what": "何を（what he was about で 彼が何をしようとしているか）",
+    "was": "（was about で）〜しようとしていた／（was coming で）〜してくるところだった",
+    "about": "（be about で）〜にとりかかっている・〜をしようとしている",
+    "hung": "つるした・かけた（hang の過去形。hang on で 〜を（火の上に）つるす）",
+    "on": "（hang on で）つるしてかける",
+    "pot": "鍋",
+    "full": "いっぱいの（full of で 〜でいっぱいの）",
+    "water": "水",
+    "made": "（make up a fire で）火をおこした（make の過去形）",
+    "blazing": "ごうごうと燃えさかる（blaze の -ing 形）",
+    "fire": "火",
+    "just": "ちょうど（just as で ちょうど〜するとき）",
+    "as": "〜するとき",
+    "coming": "来る（come の -ing 形。was coming down で おりてくるところだった）",
+    "took": "とった（take の過去形。take off で 取りはずす）",
+    "off": "はずして（take off で 取る）",
+    "cover": "ふた",
+    "in": "（鍋の）中へ（in fell the wolf で オオカミが中へ落ちた。倒置）",
+    "fell": "落ちた（fall の過去形）",
+    "so": "そこで・それで",
+    "put": "置いた（put on で かぶせる・ふたをする）",
+    "again": "ふたたび",
+    "instant": "瞬間（in an instant で すぐに・一瞬で）",
+    "boiled": "煮た・ゆでた（boil の過去形。boil up で ぐつぐつ煮る）",
+    "ate": "食べた（eat の過去形）",
+    "for": "〜として（for supper で 夕ごはんに）",
+    "supper": "夕食・夕ごはん",
+    "lived": "暮らした（live の過去形）",
+    "happy": "しあわせに（lived happy で しあわせに暮らした）",
+    "ever": "（ever afterwards で）それからずっと",
+    "afterwards": "その後（ever afterwards で それからずっと）"
+   }
+  }
+ ]
+}

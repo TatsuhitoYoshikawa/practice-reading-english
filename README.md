@@ -21,11 +21,17 @@
 | レベル | 作品 | 作者・年 | 語数 |
 |---|---|---|---|
 | A1 入門 | McGuffey's First Eclectic Reader（第 53〜62 課の抜粋） | William Holmes McGuffey, 1879 | 約 1,100 |
+| A1 入門 | The Little Red Hen（ちいさな赤いめんどり） | Florence White Williams, 1918 | 約 1,310 |
 | A2 初級 | The Tale of Peter Rabbit（ピーターラビットのおはなし） | Beatrix Potter, 1902 | 約 970 |
+| A2 初級 | The Story of the Three Little Pigs（三びきの子ぶた） | Joseph Jacobs, 1890 | 約 970 |
 | B1 中級 | The Selfish Giant（わがままな大男） | Oscar Wilde, 1888 | 約 1,660 |
+| B1 中級 | How the Camel Got His Hump（ラクダのこぶはどうしてできたか） | Rudyard Kipling, 1902 | 約 880 |
 | B2 中上級 | A Pair of Silk Stockings（絹のストッキング） | Kate Chopin, 1897 | 約 1,900 |
+| B2 中上級 | Désirée's Baby（デジレの赤ちゃん） | Kate Chopin, 1893 | 約 2,160 |
 | C1 上級 | The Gift of the Magi（賢者の贈り物） | O. Henry, 1905 | 約 2,100 |
+| C1 上級 | The Open Window（開いた窓） | Saki, 1914 | 約 1,220 |
 | C2 最上級 | The Masque of the Red Death（赤死病の仮面） | Edgar Allan Poe, 1842 | 約 2,400 |
+| C2 最上級 | The Tell-Tale Heart（告げ口心臓） | Edgar Allan Poe, 1843 | 約 2,150 |
 
 本文はすべて Project Gutenberg のパブリックドメインの原文です。和訳と語義はこのアプリ用に新しく作成したものです（既存の日本語訳は使っていません）。
 
@@ -146,7 +152,7 @@ python3 -m http.server -d web 8000
 
 ### 確認すること
 
-1. 本棚に A1〜C2 のレベル別に 6 作品が並び、数字がすべて 0 になっている。
+1. 本棚に A1〜C2 のレベル別に 12 作品が並び、数字がすべて 0 になっている。
 2. 作品を開き、単語をタップすると、下に意味と文が出る。別の単語をタップすると切り替わる。
 3. 同じ単語をもう一度タップすると「単語帳に登録しました」と出て、「単語帳」の画面に表示される。
 4. 2 段落目の最後の単語を長押しすると、下に「ここまで読みました」と出る。本棚に戻ると、総単語数と総語彙数が増えている。
@@ -221,7 +227,7 @@ web/                        ← 公開するのはこのフォルダだけ
     common.json             どの作品でも使う基本語の「この文での意味」の既定値（the, of など）
     dict.json               原形ごとの「よく使われる意味」と「イディオム・成句」
     lemmas.json             活用形 → 原形の対応表（単語の種類を数えるため）
-    <作品ID>.json           作品ごとの本文・和訳・語義（6 作品）
+    <作品ID>.json           作品ごとの本文・和訳・語義（12 作品）
 test/web.cjs                ウェブアプリの自動テスト
 package.json, package-lock.json  テスト用の Playwright（版を固定）
 .npmrc, .node-version       npm の安全設定と Node.js のバージョン
@@ -284,4 +290,10 @@ package.json, package-lock.json  テスト用の Playwright（版を固定）
 - Kate Chopin, “A Pair of Silk Stockings” (1897), *The Awakening, and Selected Short Stories* — [eBook #160](https://www.gutenberg.org/ebooks/160)
 - O. Henry, “The Gift of the Magi” (1905) — [eBook #7256](https://www.gutenberg.org/ebooks/7256)
 - Edgar Allan Poe, “The Masque of the Red Death” (1842) — [eBook #1064](https://www.gutenberg.org/ebooks/1064)
+- Florence White Williams, *The Little Red Hen: An Old English Folk Tale* (1918) — [eBook #18735](https://www.gutenberg.org/ebooks/18735)
+- Joseph Jacobs, “The Story of the Three Little Pigs”, *English Fairy Tales* (1890) — [eBook #7439](https://www.gutenberg.org/ebooks/7439)
+- Rudyard Kipling, “How the Camel Got His Hump”, *Just So Stories* (1902) — [eBook #2781](https://www.gutenberg.org/ebooks/2781)（巻末の詩は省略）
+- Kate Chopin, “Désirée's Baby” (1893), *The Awakening, and Selected Short Stories* — [eBook #160](https://www.gutenberg.org/ebooks/160)
+- Saki (H. H. Munro), “The Open Window”, *Beasts and Super-Beasts* (1914) — [eBook #269](https://www.gutenberg.org/ebooks/269)
+- Edgar Allan Poe, “The Tell-Tale Heart” (1843), *The Works of Edgar Allan Poe, Volume 2* — [eBook #2148](https://www.gutenberg.org/ebooks/2148)
 - 和訳と語義はこのアプリ用に新しく作成したものです。
