@@ -7,11 +7,25 @@
     "author": "William Holmes McGuffey"
   },
   {
+    "id": "little-red-hen",
+    "level": "A1",
+    "title": "The Little Red Hen",
+    "titleJa": "ちいさな赤いめんどり",
+    "author": "Florence White Williams"
+  },
+  {
     "id": "peter-rabbit",
     "level": "A2",
     "title": "The Tale of Peter Rabbit",
     "titleJa": "ピーターラビットのおはなし",
     "author": "Beatrix Potter"
+  },
+  {
+    "id": "three-little-pigs",
+    "level": "A2",
+    "title": "The Story of the Three Little Pigs",
+    "titleJa": "三びきの子ぶた",
+    "author": "Joseph Jacobs"
   },
   {
     "id": "selfish-giant",
@@ -21,10 +35,24 @@
     "author": "Oscar Wilde"
   },
   {
+    "id": "camel-hump",
+    "level": "B1",
+    "title": "How the Camel Got His Hump",
+    "titleJa": "ラクダのこぶはどうしてできたか",
+    "author": "Rudyard Kipling"
+  },
+  {
     "id": "silk-stockings",
     "level": "B2",
     "title": "A Pair of Silk Stockings",
     "titleJa": "絹のストッキング",
+    "author": "Kate Chopin"
+  },
+  {
+    "id": "desirees-baby",
+    "level": "B2",
+    "title": "Désirée's Baby",
+    "titleJa": "デジレの赤ちゃん",
     "author": "Kate Chopin"
   },
   {
@@ -35,10 +63,24 @@
     "author": "O. Henry"
   },
   {
+    "id": "open-window",
+    "level": "C1",
+    "title": "The Open Window",
+    "titleJa": "開いた窓",
+    "author": "Saki (H. H. Munro)"
+  },
+  {
     "id": "masque-of-the-red-death",
     "level": "C2",
     "title": "The Masque of the Red Death",
     "titleJa": "赤死病の仮面",
+    "author": "Edgar Allan Poe"
+  },
+  {
+    "id": "tell-tale-heart",
+    "level": "C2",
+    "title": "The Tell-Tale Heart",
+    "titleJa": "告げ口心臓",
     "author": "Edgar Allan Poe"
   }
 ]
